@@ -1,13 +1,19 @@
-# An Example  [JBehave](http://jbehave.org/) Project using Maven
-This is an example maven JBehave project that uses maven to build and run some simple scenarios based around withdrawing cash from an ATM.
+Requirements
+Deposit and Withdrawal
+Account statement (date, amount, balance)
+Statement printing
+User Stories
+US 1:
+In order to save money
+As a bank client
+I want to make a deposit in my account
 
-## Background
+US 2:
+In order to retrieve some or all of my savings
+As a bank client
+I want to make a withdrawal from my account
 
-JBehave is a test automation tool following the principles of Behavioural Driven Design and living documentation. Specifications are written in a concise human readable form and executed in continuous integration. 
-
-## Use
-
-After you have installed maven: mvn clean install will run the tests and produce the test output.
-
-
-
+US 3:
+In order to check my operations
+As a bank client
+I want to see the history (operation, date, amount, balance) of my operations
